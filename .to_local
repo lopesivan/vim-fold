@@ -1,0 +1,3 @@
+git remote -v
+git remote set-url origin file://${HOME}/git/vim-fold.git
+git remote -v
