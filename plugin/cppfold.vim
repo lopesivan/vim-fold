@@ -38,11 +38,11 @@ function CppFoldText()
 
     if (StartFoldLine[0:1] == '/*') && (EndFoldLine[-2:] == '*/')
 
-        return repeat(' ', ind).StartFoldLine[0:1].'..'.EndFoldLine[-2:]
+        return repeat('░', ind).StartFoldLine[0:1].'..'.EndFoldLine[-2:]
 
     else
 
-        return repeat(' ', ind) . fmtFold
+        return repeat('░', ind) . fmtFold
 
     endif
 
